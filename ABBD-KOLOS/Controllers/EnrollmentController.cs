@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ABBD_KOLOS.Controllers;
 
 [ApiController]
-[Route("enrollment")]
+[Route("api/enrollment")]
 public class EnrollmentController(IDbService service) : ControllerBase
 {
     [HttpGet]
