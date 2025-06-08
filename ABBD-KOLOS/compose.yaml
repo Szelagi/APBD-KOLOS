@@ -1,0 +1,10 @@
+﻿services:
+  db:
+    container_name: "apbddb"
+    image: postgres
+    ports: 
+    - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: passwd
+      POSTGRES_USER: user
+      POSTGRES_DB: postgres
